@@ -1,0 +1,71 @@
+{
+    "banco_motorista": {
+        "44555888990": {
+            "CPF": 44555888990,
+            "nome": "Jo\u00e3o",
+            "habilitacao": "AB"
+        }
+    },
+    "banco_veiculo": {
+        "2HBR220": {
+            "placa": "2HBR220",
+            "tipo": "Carro",
+            "motorista": "Jo\u00e3o"
+        },
+        "2HBTR78": {
+            "placa": "2HBTR78",
+            "tipo": "Moto",
+            "motorista": null
+        },
+        "2HBTR56": {
+            "placa": "2HBTR56",
+            "tipo": "Carro",
+            "motorista": null
+        },
+        "ABC1234": {
+            "placa": "ABC1234",
+            "tipo": "Moto",
+            "motorista": null
+        }
+    },
+    "banco_viajem": {
+        "2HBR220": {
+            "Veiculo": "2HBR220",
+            "Destino": "Recife",
+            "Status": true,
+            "Periodo": "15.05 at\u00e9 16.05"
+        },
+        "2HBTR78": {
+            "Veiculo": "2HBTR78",
+            "Destino": "Recife",
+            "Status": false,
+            "Periodo": "15.05 at\u00e9 16.05"
+        },
+        "2HBTR56": {
+            "Veiculo": "2HBTR56",
+            "Destino": "A",
+            "Status": true,
+            "inicio": [
+                10,
+                5
+            ],
+            "fim": [
+                15,
+                5
+            ]
+        },
+        "ABC1234": {
+            "Veiculo": "ABC1234",
+            "Destino": "A",
+            "Status": true,
+            "inicio": [
+                10,
+                2
+            ],
+            "fim": [
+                10,
+                3
+            ]
+        }
+    }
+}
